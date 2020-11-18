@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+ 	font-family: 'Oswald', sans-serif;
+
+}	
+
+
+.container{
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 10px;
+	box-shadow: 0 4px 10px 2px #222;
+	/**background-color: red;**/
+}
+
+.flex{
+	display: flex;
+	justify-content: space-between;
+}
+
+header	{
+	background-color: #F2606A;
+	padding: 10px;
+	text-transform: uppercase;
+	text-align: center;
+	color: #FFF;
+}
+		header p {
+			text-align: end;
+			padding: 10px;
+		}
+
+		h1{
+			border-top: 2px solid #fff;
+			border-bottom: 2px solid #fff;
+			padding: 15px;
+			font-size: 40px;
+			font-weight: 500;
+
+		}
+
+		h2{	
+			padding: 10px;
+			font-size: 16px;
+		}
+
+		
+	
+.right{
+	/**background-color: blue;**/
+	width: 68%;
+}		
+		.right img{
+			max-width: 100%;
+			border: solid white 10px;
+			box-shadow: 0 4px 6px -6px #222;
+			margin-bottom: 10px;
+		}
+
+
+.info{
+	margin-top: 10px;
+}
+
+.info h3{
+	background-color: #87CC6B;
+	color: #fff;
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+	text-transform: uppercase;
+	
+
+}	
+
+.info-card{
+	background-color: #4AC6AB;
+	width: 32%;
+	padding: 20px 10px 20px 10px; 
+	text-align: center;
+	margin-top: 10px;
+
+
+}
+		
+		.info-card-bg1{
+			background-color: #16B4C9;
+		}
+		.info-card-bg2{
+			background-color: #4AC6AB;
+		}
+		.info-card-bg3{
+			background-color: #87CC6B;
+		}
+
+		.info-card-circle{
+			border-radius: 50%;
+			width: 50px;
+			height: 50px;
+			background-color: #fff;
+			text-align: center;
+			margin: 0 auto;
+			font-size: 29px;
+			font-weight: bold;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+
+		.info-card h4{
+			text-transform: uppercase;
+			
+		}
+
+		.info-card p{
+			white-space: pre-wrap;
+		}
+
+		.mtop{
+			margin-top: 15px
+
+		}
+.left{
+	background-color: #C0EBF1;
+	padding: 5px 20px;
+	width: 30%;
+	margin-top: 10px;
+	height: ;
+}	
+
+aside{
+	height: 100%;
+}
+		
+		.left-cards{
+			text-align: center;
+			height: 32%;
+			border-bottom: 2px solid white;
+		}
+		.left-cards img{
+			max-width: 55%;
+			border-radius: 50%;
+			margin-bottom: 20px;
+			margin-top: 20px;
+
+		}
+
+		.left-cards h4{
+			text-transform: uppercase;
+			margin-bottom: 5px;
+		}
+
+footer{
+	text-align: end;
+	color: #F7AAB0;
+	padding: 10px;
+}		
+
+/**resposive**/
+
+@media ( max-width: 645px){
+
+	.algo{
+		flex-flow: column;
+
+	}
+	
+		.info-card{
+			width: 100%;
+
+		}
+}
