@@ -1,2 +1,3 @@
-# Coronavirus
-Campaña para la confección y uso del barbijo casero. Proyecto presentado en la Municipalidad de General San Martin.
+# Coronavirus 
+https://arielmarchioni.github.io/Coronavirus/
+Campaña para la confección y uso del barbijo casero. Proyecto presentado el 29 de Marzo del 2020 en la Municipalidad de General San Martin.
